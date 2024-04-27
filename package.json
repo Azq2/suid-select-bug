@@ -1,0 +1,23 @@
+{
+  "name": "suid-select-bug",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "patch-package",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@suid/icons-material": "*",
+    "@suid/material": "file:../suid/packages/material/lib/suid-material-0.16.0.tgz",
+    "@suid/system": "^0.11.0",
+    "patch-package": "^8.0.0",
+    "solid-js": "*"
+  },
+  "devDependencies": {
+    "@suid/vite-plugin": "*",
+    "typescript": "^4.8.2",
+    "vite": "*",
+    "vite-plugin-solid": "*"
+  }
+}
